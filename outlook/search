@@ -1,0 +1,12 @@
+---
+tags: [ search, spotlight, outlook, microsoft ]
+---
+Outlook Raw Query Search
+========================
+The raw query search allows using raw spotlight queries to search. This search mode allows for all logical search operations. 
+
+Available search terms:
+    * kMDItemTitle: The subject line for the email
+    * com_microsoft_outlook_author_email_addresses: The email address(es) of the sender. Not sure why  it's plural.
+
+'/Applications/Microsoft Outlook.app/Contents/Library/Spotlight/Microsoft Outlook Spotlight Importer.mdimporter/Contents/Resources/schema.xml' is the file that acts as a reference for all the available search terms. The actual purpose of this file is likely to serve as an indexing metadata source for spotlight.
